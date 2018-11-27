@@ -32,7 +32,8 @@ public class LevelManager : MonoBehaviour {
         save = playerController.GetComponent<Rigidbody2D>().gravityScale;
         playerController.GetComponent<Rigidbody2D>().gravityScale = 0f;
         playerController.GetComponent<Renderer>().enabled = false;
-        playerController.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        playerController.GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
+        KillPlayer.Killable(false);
         ScoreManager.AddPoints(-deathPenalty);
         Debug.Log("Player Respawn");
         yield return new WaitForSeconds(respawnDelay);
@@ -40,6 +41,7 @@ public class LevelManager : MonoBehaviour {
         playerController.GetComponent<Rigidbody2D>().gravityScale = save;
         playerController.enabled = true;
         playerController.GetComponent<Renderer>().enabled = true;
+        KillPlayer.Killable(true);
         playerController.transform.position = currentCheckpoint.transform.position;
         Instantiate(respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
     }

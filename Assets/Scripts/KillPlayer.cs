@@ -5,9 +5,10 @@ using UnityEngine;
 public class KillPlayer : MonoBehaviour {
     //declaration
     public LevelManager levelManager;
-    public bool killed;
+    public static bool killing;
 	// Use this for initialization
 	void Start () {
+        killing = true;
         levelManager = FindObjectOfType<LevelManager>();
 	}
 	
@@ -17,10 +18,13 @@ public class KillPlayer : MonoBehaviour {
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Player")
+        if (collision.name == "Player" && killing)
         {
-            killed = true;
             levelManager.RespawnPlayer();
         }
+    }
+    public static void Killable(bool para)
+    {
+        killing = para;
     }
 }

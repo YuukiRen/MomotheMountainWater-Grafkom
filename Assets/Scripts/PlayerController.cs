@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour {
     private Animator anim;
     //end of tutor
     public Collider2D myCollide;
-    private GameObject tag;
     // Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();   

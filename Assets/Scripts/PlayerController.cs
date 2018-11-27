@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour {
     private bool doubleJumped;
     public LayerMask whatIsGround;
     private Animator anim;
+
+    public Transform firePoint;
+    public GameObject ninjaStars;
     //end of tutor
     public Collider2D myCollide;
     // Use this for initialization
@@ -61,5 +64,10 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            Instantiate(ninjaStars, firePoint.position, firePoint.rotation);
+        }
     }
 }

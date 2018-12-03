@@ -9,7 +9,7 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 2. Tipe game memiliki akhir disebuah lautan.
 3. Karakter momo mendapatkan 15 poin bila memakan 'coklat'.
 4. Karakter momo akan berkurang 30 poin bila terkena musuh-musuh dan kehilangan 1 hati. Bila 3 hati hilang, maka karakter momo mati dan ulang kembali ke awal.
-5. Karakter momo dapat membunuh musuh dengan cara menginjak musuhnya, lalu mendapatkan 50 poin.
+5. Karakter momo dapat membunuh musuh lalu mendapatkan 50 poin.
 6. Karakter momo memiliki senjata, didapatkan dengan cara explore-eat.
 7. Ketika 'NEW GAME', dimulai dengan cerita.
 8. Ketika 'PLAY AGAIN', senjata yang didapat dari sebelumnya masih ada, tapi score dimulai dari 0.

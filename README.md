@@ -15,6 +15,13 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 8. Ketika 'PLAY AGAIN', senjata yang didapat dari sebelumnya masih ada, tapi score dimulai dari 0.
 9. 'SETTINGS', dapat mengubah karakter, music, suara.
 10. 'HELP', penjelasan mengenai alur game, weapon, dan enemy.
+- Alur Game
+Pemain cukup maju, mundur, dan lompat untuk mendapatkan 'coklat' dan 'coklat emas'. Untuk 'coklat' bernilai 15 poin serta 'coklat emas' bernilai 20 poin. Pemain mendapatkan 3 hati (menunjukkan kesempatan hidup dalam permainan). Setiap terkena musuh, pemain akan kehilangan 1 hati dan berkurang 30 poin. Bila hati sudah habis pemain akan mati dan kembali ke awal. Pemain bisa mendapatkan senjata untuk melawan musuh, dan bila dapat membunuh musuh, pemain akan mendapatkan poin tambahan sebanyak 50 poin.
+- Enemy
+Terdapat 7 elemen yang menjadi musuh dalam game ini. Semua musuh dapat dibunuh oleh pemain, tetapi ada beberapa musuh yang mempunyai kekuatan lebih seperti api, es dan duri.
+
+- Weapon (liat dibawah)
+
 11. 'EXIT', keluar dari game.
 
 ## Enemy
@@ -60,3 +67,6 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 3. Senjata didapatkan dari setiap tipe scene
 4. Momo memakan coklat - 15 poin, coklat emas - 20 poin
 5. Bila memakan 'petir', Momo dapat bertahan dari musuh 1x. 'petir' didapat tiap tipe scene
+
+## Sound Effect
+Cari di https://freesound.org/

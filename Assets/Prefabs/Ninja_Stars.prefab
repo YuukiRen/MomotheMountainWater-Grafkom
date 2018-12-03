@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 114959086762237052}
   - component: {fileID: 58168932268434528}
   - component: {fileID: 61398952911406822}
-  m_Layer: 0
+  - component: {fileID: 114468747855602412}
+  m_Layer: 11
   m_Name: Ninja_Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,6 +105,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5625, y: 0.5625}
   m_EdgeRadius: 0
+--- !u!114 &114468747855602412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1129281034505806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f6f781962185174fbacc4fb6dc3801c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 2
 --- !u!114 &114959086762237052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,15 +128,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d4abacbedaae34cbedf4fb4c80aa87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 10
   player: {fileID: 0}
   enemyDeathEffect: {fileID: 1177170961449816, guid: ca3edaf3dbaf44e4a8b8f8dfe1a65240,
+    type: 2}
+  impactEffect: {fileID: 1811159627682374, guid: 70dcc10d076153f4fa39c699909a7945,
     type: 2}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  killPoint: 25
+  damageGive: 10
   Grounded: 0
   myCollide: {fileID: 0}
+  rotationSpeed: 360
 --- !u!212 &212345846211029196
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -65,12 +65,21 @@
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\CoinPicker.cs" />
     <Compile Include="Assets\Scripts\DestroyFinishedParticle.cs" />
+    <Compile Include="Assets\Scripts\DestroyObjectOverTime.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\HighestScore.cs" />
     <Compile Include="Assets\Scripts\KillPlayer.cs" />
+    <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\LifeGiver.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\NinjaStarController.cs" />
+    <Compile Include="Assets\Scripts\OptionController.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlatformGenerator.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/YuukiRen/Documents/First/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

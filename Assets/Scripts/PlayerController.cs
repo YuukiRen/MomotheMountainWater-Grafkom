@@ -18,17 +18,18 @@ public class PlayerController : MonoBehaviour {
     //end of tutor
     public Collider2D myCollide;
     // Use this for initialization
+    //health
+    public float shotDelay;
+    private float shotDelayCounter;
 	void Start () {
         rb = GetComponent<Rigidbody2D>();   
         myCollide = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
         Grounded = Physics2D.IsTouchingLayers(myCollide, whatIsGround);
-
 
 
         if (Grounded==true)
@@ -65,9 +66,23 @@ public class PlayerController : MonoBehaviour {
         }
         anim.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.RightShift))
         {
-            Instantiate(ninjaStars, firePoint.position, firePoint.rotation);
+            shotDelayCounter -= Time.deltaTime;
+            if (shotDelayCounter <= 0)
+            {
+                shotDelayCounter = shotDelay;
+                Instantiate(ninjaStars, firePoint.position, firePoint.rotation);
+            }
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            shotDelayCounter -= Time.deltaTime;
+            if(shotDelayCounter<= 0)
+            {
+                shotDelayCounter = shotDelay;
+                Instantiate(ninjaStars, firePoint.position, firePoint.rotation);
+            }
         }
     }
 }

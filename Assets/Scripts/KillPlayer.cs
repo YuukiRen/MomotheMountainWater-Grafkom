@@ -6,6 +6,7 @@ public class KillPlayer : MonoBehaviour {
     //declaration
     public LevelManager levelManager;
     public static bool killing;
+    public int damage;
 	// Use this for initialization
 	void Start () {
         killing = true;
@@ -20,6 +21,7 @@ public class KillPlayer : MonoBehaviour {
     {
         if (collision.name == "Player" && killing)
         {
+            PlayerHealth.HurtPlayer(damage);
             levelManager.RespawnPlayer();
         }
     }

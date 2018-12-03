@@ -28,9 +28,20 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 
 ## Scene -- dari level mudah ke sulit
 1. Tanah -- 5 tipe
+- polos, hanya bebatuan
+- saluran pipa
+- penuh tanaman
+- penuh sampah
+- penuh hewan
 2. Lava -- 2 tipe
+- penuh lava, berada di dasar
+- penuh api di dinding
 3. Kutub -- 2 tipe
+- polos
+- hewan kutub
 4. Gurun -- 2 tipe
+- polos
+- kaktus
 5. Lautan -- akhir dari sebuah game, tidak ada permainan. Hanya cerita penutup.
 
 ## Weapon
@@ -48,3 +59,4 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 2. Momo dapat mendapatkan tambahan hati, yang tersimpan dalam peti di setiap scene
 3. Senjata didapatkan dari setiap tipe scene
 4. Momo memakan coklat - 15 poin, coklat emas - 20 poin
+5. Bila memakan 'petir', Momo dapat bertahan dari musuh 1x. 'petir' didapat tiap tipe scene

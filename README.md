@@ -1,10 +1,10 @@
 # MomotheMountainWater-Grafkom
 Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah Grafika Komputer. Roles: Husna Nurarifah - Game Designer, Alvin Reinaldo - Game Programmer, Jasmine Khairunissa - Game Artist
 
-# Story
+## Story
 <i>Dalam era kehidupan yang makin kacau, manusia berperang satu sama lain yang mengakibatkan manusia menjadi musnah. Tinggallah elemen-elemen yang bertahan di muka bumi ini. Momo, elemen air yang hidup dalam sebuah rumah di pegunungan, ditinggal oleh keluarganya yang lain. Ia memutuskan untuk berkelana mencari arti sebuah kehidupan dengan berkumpul kembali bersama keluarganya. Siapkah kamu menemani Momo berkelana?</i>
 
-# Design 
+## Design 
 1. Karakter momo jatuh dari sebuah keran lalu mengalir melalui bawah tanah dengan berbagai macam kondisi.
 2. Tipe game memiliki akhir disebuah lautan.
 3. Karakter momo mendapatkan 15 poin bila memakan 'coklat'.
@@ -17,7 +17,7 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 10. 'HELP', penjelasan mengenai alur game, weapon, dan enemy.
 11. 'EXIT', keluar dari game.
 
-# Enemy
+## Enemy
 1. Batu-batu
 2. Api
 3. Es
@@ -26,23 +26,24 @@ Momo the Mountain Water adalah game yang dibuat sebagai tugas akhir mata kuliah 
 6. Tanaman -- opsional
 7. Sampah
 
-# Scene -- dari level mudah ke sulit
+## Scene -- dari level mudah ke sulit
 1. Tanah -- 5 tipe
 2. Lava -- 2 tipe
 3. Kutub -- 2 tipe
 4. Gurun -- 2 tipe
 5. Lautan -- akhir dari sebuah game, tidak ada permainan. Hanya cerita penutup.
 
-# Weapon
+## Weapon
 1. Waterspray -- 10 kali tembak, musuh mati
 2. Waterball -- 7 kali
 3. Waterbomb -- 3 kali
 
-# Enemy Attack
+## Enemy Attack
 1. Api -- menyemprotkan api seperti naga, percikan
 2. Es -- menyemprotkan bola-bola es, menembak karakter menjadi freeze
+3. Duri -- melemparkan duri-duri
 
-# Additional
+## Additional
 1. Momo dapat melompat 2x, maju, mundur, lompat 1x
 2. Momo dapat mendapatkan tambahan hati, yang tersimpan dalam peti di setiap scene
 3. Senjata didapatkan dari setiap tipe scene

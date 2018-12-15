@@ -3,9 +3,15 @@
 --- !u!74 &7400000
 AnimationClip:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: merahkiri
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: New Animation
+>>>>>>> 14e8b0ed87071f77995f0e6ede5fb21bc4e03600
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0

@@ -3,7 +3,11 @@
 --- !u!74 &7400000
 AnimationClip:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
+=======
+  m_CorrespondingSourceObject: {fileID: 0}
+>>>>>>> 14e8b0ed87071f77995f0e6ede5fb21bc4e03600
   m_PrefabInternal: {fileID: 0}
   m_Name: PlayerRunning
   serializedVersion: 6
@@ -19,7 +23,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
+<<<<<<< HEAD
       value: {fileID: 21300000, guid: aecfd1f5c711c5f47b015853266d0959, type: 3}
+=======
+      value: {fileID: 21300008, guid: eeb0d924cd6a7734b991e702e3e5e851, type: 3}
+    - time: 0.1
+      value: {fileID: 21300010, guid: eeb0d924cd6a7734b991e702e3e5e851, type: 3}
+>>>>>>> 14e8b0ed87071f77995f0e6ede5fb21bc4e03600
     attribute: m_Sprite
     path: 
     classID: 212
@@ -39,13 +49,22 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
+<<<<<<< HEAD
     - {fileID: 21300000, guid: aecfd1f5c711c5f47b015853266d0959, type: 3}
+=======
+    - {fileID: 21300008, guid: eeb0d924cd6a7734b991e702e3e5e851, type: 3}
+    - {fileID: 21300010, guid: eeb0d924cd6a7734b991e702e3e5e851, type: 3}
+>>>>>>> 14e8b0ed87071f77995f0e6ede5fb21bc4e03600
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<< HEAD
     m_StopTime: 0.1
+=======
+    m_StopTime: 0.2
+>>>>>>> 14e8b0ed87071f77995f0e6ede5fb21bc4e03600
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

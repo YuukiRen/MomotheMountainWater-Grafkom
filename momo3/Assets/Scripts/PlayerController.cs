@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
     private bool doubleJumped;
     public LayerMask whatIsGround;
     private Animator anim;
+	public AudioSource hitPlayer;
 
     public Transform firePoint;
     public GameObject ninjaStars;

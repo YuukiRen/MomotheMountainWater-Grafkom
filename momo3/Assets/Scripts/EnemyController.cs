@@ -14,10 +14,12 @@ public class EnemyController : MonoBehaviour {
 
     private bool Edged;
     public Transform edgeCheck;
-    
+	private Animator anim;
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame

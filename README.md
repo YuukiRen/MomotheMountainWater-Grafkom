@@ -25,36 +25,20 @@ Terdapat 7 elemen yang menjadi musuh dalam game ini. Semua musuh dapat dibunuh o
 11. 'EXIT', keluar dari game.
 
 ## Enemy
-1. Batu-batu
-2. Api
-3. Es
-4. Hewan
-5. Duri
-6. Tanaman -- opsional
-7. Sampah
+1. Api
+2. Es
+3. Tanaman
+4. Kaktus
 
 ## Scene -- dari level mudah ke sulit
-1. Tanah -- 5 tipe
-- polos, hanya bebatuan
-- saluran pipa
-- penuh tanaman
-- penuh sampah
-- penuh hewan
-2. Lava -- 2 tipe
-- penuh lava, berada di dasar
-- penuh api di dinding
-3. Kutub -- 2 tipe
-- polos
-- hewan kutub
-4. Gurun -- 2 tipe
-- polos
-- kaktus
+1. Tanah
+2. Lava 
+3. Kutub 
+4. Gurun
 5. Lautan -- akhir dari sebuah game, tidak ada permainan. Hanya cerita penutup.
 
 ## Weapon
-1. Waterspray -- 10 kali tembak, musuh mati
-2. Waterball -- 7 kali
-3. Waterbomb -- 3 kali
+1. Waterball -- 3 kali menembak, musuh mati
 
 ## Enemy Attack
 1. Api -- menyemprotkan api seperti naga, percikan
@@ -63,10 +47,7 @@ Terdapat 7 elemen yang menjadi musuh dalam game ini. Semua musuh dapat dibunuh o
 
 ## Additional
 1. Momo dapat melompat 2x, maju, mundur, lompat 1x
-2. Momo dapat mendapatkan tambahan hati, yang tersimpan dalam peti di setiap scene
-3. Senjata didapatkan dari setiap tipe scene
-4. Momo memakan coklat - 15 poin, coklat emas - 20 poin
-5. Bila memakan 'petir', Momo dapat bertahan dari musuh 1x. 'petir' didapat tiap tipe scene
+2. Momo memakan coklat - 15 poin, coklat emas - 20 poin
 
 ## Sound Effect
 Cari di https://freesound.org/

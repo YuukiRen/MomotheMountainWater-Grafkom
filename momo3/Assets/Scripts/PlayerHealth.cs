@@ -14,8 +14,8 @@ public class PlayerHealth : MonoBehaviour {
     private LevelManager levelManager;
     // Use this for initialization
     void Start () {
-        //health = maxPlayerHealth;
-        health = PlayerPrefs.GetInt("PlayerCurrentLives");
+        health = maxPlayerHealth;
+        //health = PlayerPrefs.GetInt("PlayerCurrentLives");
         text = GetComponent<Text>();
         levelManager = FindObjectOfType<LevelManager>();
 	}

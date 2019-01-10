@@ -1,0 +1,11 @@
+- Deskripsi Game 
+
+Pemain cukup maju, mundur, dan lompat untuk mendapatkan 'coklat' dan 'coklat emas'. Untuk 'coklat' bernilai 15 poin serta 'coklat emas' bernilai 20 poin. 
+Pemain mendapatkan 3 hati (menunjukkan kesempatan hidup dalam permainan). Setiap terkena musuh, pemain akan kehilangan 1 hati dan berkurang 30 poin. 
+Bila hati sudah habis pemain akan mati dan kembali ke awal. Pemain bisa mendapatkan senjata untuk melawan musuh, dan bila dapat membunuh musuh, pemain akan 
+mendapatkan poin tambahan sebanyak 50 poin.
+
+- Teknologi yang digunakan
+1. Unity
+2. Adobe Illustrator
+3. Bahasa Pemrograman C#
